@@ -1,0 +1,11 @@
+Week 2 Task: Supervised Machine Learning Models
+
+This project demonstrates supervised machine learning using Python and scikit-learn. It covers both regression and classification, as required by the task. A synthetic student-performance dataset is used for practice. The features include study hours, attendance percentage, and previous score.
+
+For regression, the target is Final_Score, a numerical value. The project trains Linear Regression, Decision Tree Regressor, Random Forest Regressor, and K-Nearest Neighbors Regressor models. The data is divided into training and testing sets so that the models can be evaluated on examples not used during training. Performance is compared using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and the R-squared score. Lower MAE and RMSE indicate smaller prediction errors, while a higher R-squared generally indicates that the model explains more variation in the target.
+
+For classification, the target is Pass, where 1 represents a predicted pass and 0 represents a score below the defined threshold. Logistic Regression, Decision Tree, Random Forest, and K-Nearest Neighbors classifiers are trained and compared. The evaluation metrics include accuracy, precision, recall, and F1-score. Feature scaling is included in pipelines for models that are sensitive to feature magnitudes.
+
+The Python script saves separate CSV files containing the regression and classification evaluation results. The project demonstrates the basic workflow of preparing data, splitting it into training and testing sets, training models, making predictions, and comparing performance metrics.
+
+The dataset is synthetic and intended only for educational practice. The results should not be interpreted as findings about real students. This task provides practical exposure to supervised learning and a foundation for further experimentation with machine-learning models.

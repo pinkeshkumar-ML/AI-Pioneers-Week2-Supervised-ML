@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1
+Logistic Regression,0.889,0.875,0.875,0.875
+Decision Tree Classifier,0.806,0.8,0.75,0.774
+Random Forest Classifier,0.889,0.875,0.875,0.875
+KNN Classifier,0.889,0.875,0.875,0.875
